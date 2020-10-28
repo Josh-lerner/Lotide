@@ -1,7 +1,7 @@
 function average(list) {
-  var sum = 0;
+  let sum = 0;
   
-  for (var num of list) {
+  for (let num of list) {
     sum += num;
   }
 
@@ -10,7 +10,7 @@ function average(list) {
 console.log(average([3, 5, 7]));
 
 
-var input = process.argv[2];
+let input = process.argv[2];
 
 if (input)
   //console.log(reverse(input));
