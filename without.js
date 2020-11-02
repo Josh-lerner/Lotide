@@ -7,10 +7,8 @@ const without = function(words, remove){
    
     } 
   
-    
-   
- 
-  
 }
 }
- without(['hello', 'world', 'lighthouse'], 'lighthouse')
+
+
+ module.exports = without;
