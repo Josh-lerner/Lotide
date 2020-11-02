@@ -1,4 +1,8 @@
- const middle = function (array){
+
+const assertArraysEqual = require('./assertArraysEqual')
+
+//assertArraysEqual(eqArrays([1, 2, 3], [1, 2, 3]), true)
+  const middle = function (array){
    let num = 0
    // iterate over the function 
     for ( i = 0; i < array.length; i++){
@@ -20,4 +24,7 @@
     return num
  
   }  
-  console.log(middle([1,2,3,4,5,6,]))
+  console.log(middle([1,2,3,4,5,6,7]))
+
+ 
+ 
