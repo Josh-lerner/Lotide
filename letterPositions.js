@@ -13,10 +13,4 @@ const letterPositions = function(sentence) {
   return result;
 }
 
-//find multiple indexes of a letter
-//check if result is array, push to array/ assign array 
-
-
-
-
-console.log(letterPositions("joshua eli lerner"))
+module.exports = letterPositions;
