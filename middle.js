@@ -1,4 +1,4 @@
-
+const eqArrays = require('./eqArrays')
 const assertArraysEqual = require('./assertArraysEqual')
 
 //assertArraysEqual(eqArrays([1, 2, 3], [1, 2, 3]), true)
@@ -24,7 +24,7 @@ const assertArraysEqual = require('./assertArraysEqual')
     return num
  
   }  
-  console.log(middle([1,2,3,4,5,6,7]))
+  console.log(assertArraysEqual(middle([1,2,3,4,5,6,7]), [4], true))
 
  
  
