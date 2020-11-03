@@ -32,6 +32,8 @@ tail():  returns the "tail" of an array: everything except for the first item (h
 
 middle(): returns the middle of an array
 
+countOnly(): take in a collection of items and return counts for a specific subset of those items
+
 countLetters(): The function should take in a sentence (as a string) and then return a count of each of the letters in that sentence.
 
 findKey(): scan the object and return the first key for which the callback returns a truthy value
